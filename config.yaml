@@ -1,0 +1,27 @@
+serial:
+  port: COM2
+  baudrate: 9600
+  bytesize: 8
+  parity: N
+  stopbits: 1
+  timeout: 5
+
+modbus:
+  slave_id: 1
+
+data_base: hex
+value_dir: default
+
+start_address:
+  co: 0x0
+  di: 0x0
+  hr: 0x0320
+  ir: 0x0
+
+enable_logging: on
+
+value_enable:
+  co: off
+  di: off
+  hr: on
+  ir: off
